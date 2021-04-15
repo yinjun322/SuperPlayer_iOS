@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   spec.author           = { 'yinjun322' => 'yinjun322@gmail.com' }
   spec.source           = { :git => 'https://github.com/yinjun322/SuperPlayer_iOS.git', :tag => spec.version.to_s }
 
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   spec.ios.deployment_target = '9.0'
   spec.requires_arc = true
 
